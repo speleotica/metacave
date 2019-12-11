@@ -1,7 +1,7 @@
 {
-  "name": "typescript-library-skeleton",
+  "name": "@speleotica/metacave",
   "version": "0.0.0-development",
-  "description": "my personal ES2015 library project skeleton",
+  "description": "utils for working with metacave files",
   "main": "index.js",
   "sideEffects": false,
   "scripts": {
@@ -69,17 +69,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jedwards1211/typescript-library-skeleton.git"
+    "url": "https://github.com/speleotica/metacave.git"
   },
   "keywords": [
-    "typescript"
+    "metacave",
+    "cave-survey"
   ],
   "author": "Andy Edwards",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jedwards1211/typescript-library-skeleton/issues"
+    "url": "https://github.com/speleotica/metacave/issues"
   },
-  "homepage": "https://github.com/jedwards1211/typescript-library-skeleton#readme",
+  "homepage": "https://github.com/speleotica/metacave#readme",
   "devDependencies": {
     "@babel/cli": "^7.1.5",
     "@babel/core": "^7.1.6",
@@ -123,7 +124,8 @@
     "typescript": "^3.7.2"
   },
   "dependencies": {
-    "@babel/runtime": "^7.1.5"
+    "@babel/runtime": "^7.1.5",
+    "@speleotica/unitized": "^2.0.0"
   },
   "renovate": {
     "extends": [
